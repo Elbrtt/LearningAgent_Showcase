@@ -7,7 +7,7 @@ import SiteRail from './components/SiteRail.vue'
   <main class="stage">
     <RouterView v-slot="{ Component }">
       <Transition name="swap" mode="out-in">
-        <component :is="Component" />
+        <component :is="Component"/>
       </Transition>
     </RouterView>
   </main>

@@ -55,7 +55,6 @@ import HudStat from '../components/HudStat.vue'
         depends on the teacher.
       </p>
     </section>
-
     <section class="engine">
       <div class="engine__text">
         <h3 v-reveal>Inside the engine</h3>
